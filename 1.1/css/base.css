@@ -1,0 +1,239 @@
+p {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+select,input {
+	border: none;
+	outline: none;
+}
+/* top 模块样式 */
+
+.top {
+	line-height: 30px;
+	font-size: 13px;
+	color: #868686;
+}
+
+.top .call {
+	float: left;
+	padding-left: 20px;
+	background: url(../img/icon-call.png) no-repeat center left;
+	/*background-size: 18px 18px;*/
+
+}
+
+.top .welcome {
+	float: right;
+
+}
+
+.top a {
+	color: #2da5e1;
+	padding-left: 10px;
+}
+
+/* header 模块样式 */
+
+.header .logo {
+	width: 402px;
+	height: 74px;
+	padding: 9px 0;
+	display: inline-block;
+}
+
+.header .logo img {
+	width: 100%;
+	height: 100%;
+}
+
+/*.header .search {
+	width: 326px;
+	height: 38px;
+	float: right;
+	margin: 27px 0px;
+	background-color: orange;
+}*/
+
+.header .search {
+	width: 326px;
+	height: 38px;
+	position: absolute;
+	right: 0;
+	top: 27px;
+	background-color: orange;
+}
+
+/* nav 模块样式 */
+
+.nav .link {
+	display: inline-block;
+	padding-left: 36px;
+	line-height: 36px;
+	float: left;
+	color: #fff;
+	font-size: 16px;
+	min-width: 80px;
+	text-align: center;
+	/*background-color: red;*/
+}
+
+.nav .link:hover {
+	color: #d7f3ff;
+}
+
+.nav .menu {
+	width: 130px;
+	padding: 0 33px;
+	background-color: #1fa4f0;
+	position: relative;
+}
+
+.nav .menu-list {
+	width: 100%;
+	height: 423px;
+	position: absolute;
+	top: 36px;
+	left: 0;
+	background-color: #1fa4f0;
+	/*background-color: red;*/
+}
+
+/* banner 模块样式 */
+.banner-search, .banner-help {
+	background-color: #fafafa;
+}
+
+.banner-search .caption,.banner-help .caption {
+	height: 22px;
+	text-align: center;
+	padding: 15px 0 15px 0;
+	
+}
+
+.banner-search .caption .text {
+	display: inline-block;
+	height: 22px;
+	line-height: 22px;
+	font-size: 16px;
+	padding-left: 28px;
+	color: #fec009;
+	/* icon-help 2张小图标切图在一起，所以要用 “0 0” 进行定位 */
+	background: url(../img/icon-help.png) 0 0 no-repeat;
+
+}
+
+.banner-search .form {
+	height: 150px;
+	width: 100%;
+	/*position: relative;*/
+}
+.banner-search .form .line {
+	/*position: absolute;*/
+	/*margin: auto 0;*/
+	text-align: center;
+	padding-bottom: 9px;
+	/*background-color: blue;*/
+}
+
+.banner-search .form .line select {
+	width: 170px;
+	height: 26px;
+	font-size: 12px;
+	line-height: 26px;
+	z-index:0;
+	border: 1px solid #dcdddd;
+	padding: 2px 0;
+	color: #666;
+}
+
+.banner-search .submit {
+	text-align: center;
+}
+.banner-search .submit .button {
+	width: 108px;
+	height: 33px;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	background-color: #fecd09;
+	border-radius: 3px;
+}
+
+.banner-help .caption .text {
+	display: inline-block;
+	height: 22px;
+	line-height: 22px;
+	font-size: 16px;
+	padding-left: 28px;
+	color: #4ab4ed;
+	background: url(../img/icon-help.png) 0 -23px no-repeat;
+	/* 图片坐标轴：左上角为(0,0)，向右x+,向下y- */
+}
+
+
+.banner-help .list {
+	/* 消除其子元素中，inline-block之间的间隙 */
+	font-size: 0;
+}
+.banner-help .link {
+	display: inline-block;
+	width: 86px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	margin: 0 0 8px 26px;
+	/*padding: 0 0 8px 26px;*/
+	font-size: 14px;
+	color: #4ab4ed;
+	/*background-color: red;*/
+	/* tips: 控制div之间的间距、调整距离，用padding或margin都可以*/
+}
+
+/* content 模块样式 */
+
+.content-news,.content-close {
+	background-color: #fff;
+}
+
+.content-news .caption,.content-close .caption {
+	height: 38px;
+	line-height: 38px;
+	background-color: #f4f6fa;
+	text-indent: 20px;
+	color: #fec009;
+	font-size: 15px;
+}
+
+.content-news .more,.content-close .more {
+	float:right;
+	margin-right: 22px;
+	font-size: 12px;
+	color: #868686;
+}
+
+.content-news .list,.content-close .list {
+	padding: 15px 20px 13px 35px;
+	font-size: 12px;
+	line-height: 29px;
+	background: url(../img/list-yellow.jpg) 17px 21px no-repeat;
+}
+
+.content-close .list {
+	background: url(../img/list-blue.jpg) 17px 21px no-repeat;;
+}
+.content-news .link,.content-close .link{
+	display: block;
+	color: #969696;
+}
+
+.content-close .caption {
+	color: #4ab4ed;
+}
+
+
+
