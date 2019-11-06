@@ -65,8 +65,9 @@ select,input {
 	position: absolute;
 	right: 0;
 	top: 27px;
-	background-color: orange;
+	/* background-color: orange; */
 }
+
 
 /* nav 模块样式 */
 
