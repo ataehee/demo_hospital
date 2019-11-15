@@ -76,6 +76,7 @@
 }
 
 .ui-menu-item:hover .ui-menu-item-detail{
+    /* 用css即可实现动态侧边栏菜单，没有用到JS */
     display: block;
 }
 
